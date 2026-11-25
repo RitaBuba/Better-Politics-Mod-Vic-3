@@ -388,7 +388,7 @@ bpm_update_ideology_socialists = {
 
         gov = radicalizable_proletarian
         dop = radical_democrat
-        sta = subjugated
+        sta = progressive #subjugated
         eco = proletarian
         wel = expanded_public
         cit = internationalist

@@ -570,7 +570,7 @@ bpm_trait_dop_trade_unions ={
         }
         bpm_ig_set_ideology = {
             type = dop
-            name = syndical_unionist
+            name = syndicalist
         }
     }
     else_if = {
@@ -580,17 +580,6 @@ bpm_trait_dop_trade_unions ={
         bpm_ig_set_ideology = {
             type = dop
             name = state_unionist
-        }
-    }
-    else_if = {
-        limit = {
-            owner = {
-                has_variable = bpm_syndicalist_takeover_var
-            }
-        }
-        bpm_ig_set_ideology = {
-            type = dop
-            name = syndicalist
         }
     }
     else = {
