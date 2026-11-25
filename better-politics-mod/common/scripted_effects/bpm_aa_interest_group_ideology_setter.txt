@@ -471,7 +471,7 @@ bpm_update_ideology_revolutionist_socialists = {
         ig = revolutionist_socialists
 
         gov = radical_proletarian
-        dop = radical_democrat
+        dop = revolutionist_socialists
         sta = subjugated
         eco = proletarian
         wel = expanded_public
